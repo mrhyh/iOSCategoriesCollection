@@ -6,8 +6,8 @@
 //  Copyright © 2016年 com.ylgwhyh.iOSCategoriesCollection. All rights reserved.
 //
 
-#ifndef Common_h
-#define Common_h
+#ifndef YLCommon_h
+#define YLCommon_h
 
 
 #endif /* Common_h */

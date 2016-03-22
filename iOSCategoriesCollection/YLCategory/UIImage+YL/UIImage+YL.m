@@ -1,6 +1,9 @@
-#import "UIImage+Extension.h"
 
-@implementation UIImage (Extension)
+
+
+#import "UIImage+YL.h"
+
+@implementation UIImage (YL)
 
 
 #pragma mark 默认比例因子是0.5的拉伸方法
@@ -17,13 +20,12 @@
 
 #pragma makr 根据颜色返回图片
 +(UIImage*)imageWithColor:(UIColor*)color {
+    
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
     UIGraphicsBeginImageContext(rect.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
-    
     CGContextSetFillColorWithColor(context, [color CGColor]);
     CGContextFillRect(context, rect);
-    
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     

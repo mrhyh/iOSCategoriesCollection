@@ -1,8 +1,10 @@
+
+
+
 #import <UIKit/UIKit.h>
 
-
 /************************对UIImage功能拓展的分类************************/
-@interface UIImage (Extension)
+@interface UIImage (YL)
 
 /**
  *  按照0.5的比例拉伸图片
