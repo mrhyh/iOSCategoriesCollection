@@ -6,8 +6,6 @@
 //  Copyright © 2016年 xinggenji. All rights reserved.
 //
 
-#import "UIColor+Hex.h"
-
 //number
 #define Number_Lat                0.006471
 #define Number_Lng                0.005992

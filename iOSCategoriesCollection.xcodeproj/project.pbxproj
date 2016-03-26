@@ -38,7 +38,7 @@
 		EB5461161C9C009800BBC675 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		EB5461171C9C009800BBC675 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		EB5461191C9C00FF00BBC675 /* YLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCommon.h; sourceTree = "<group>"; };
-		EB54611B1C9C16C800BBC675 /* YLCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCategory.h; sourceTree = "<group>"; };
+		EB54611B1C9C16C800BBC675 /* YLCategoryUIViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCategoryUIViewExtension.h; sourceTree = "<group>"; };
 		EBF3232B1C9BE4540056C907 /* iOSCategoriesCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCategoriesCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF3232F1C9BE4540056C907 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBF323311C9BE4540056C907 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -240,7 +240,7 @@
 		EBF323C51C9BE4870056C907 /* UIView+Extension */ = {
 			isa = PBXGroup;
 			children = (
-				EB54611B1C9C16C800BBC675 /* YLCategory.h */,
+				EB54611B1C9C16C800BBC675 /* YLCategoryUIViewExtension.h */,
 				EBF323C61C9BE4870056C907 /* UIView+Extension.h */,
 				EBF323C71C9BE4870056C907 /* UIView+Extension.m */,
 			);
