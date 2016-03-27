@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB0FCAE41CA12F9600011002 /* UIImage+YL.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCAE31CA12F9600011002 /* UIImage+YL.m */; };
+		EB1229EF1CA64BC9007BBB73 /* UIImageYLVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1229EE1CA64BC9007BBB73 /* UIImageYLVC.m */; };
 		EB5461181C9C009800BBC675 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5461171C9C009800BBC675 /* UIColor+Hex.m */; };
 		EBF323301C9BE4540056C907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3232F1C9BE4540056C907 /* main.m */; };
 		EBF323331C9BE4540056C907 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF323321C9BE4540056C907 /* AppDelegate.m */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		EB0FCAE21CA12F9600011002 /* UIImage+YL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YL.h"; sourceTree = "<group>"; };
 		EB0FCAE31CA12F9600011002 /* UIImage+YL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YL.m"; sourceTree = "<group>"; };
+		EB1229ED1CA64BC9007BBB73 /* UIImageYLVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageYLVC.h; sourceTree = "<group>"; };
+		EB1229EE1CA64BC9007BBB73 /* UIImageYLVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageYLVC.m; sourceTree = "<group>"; };
 		EB5461161C9C009800BBC675 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		EB5461171C9C009800BBC675 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		EB5461191C9C00FF00BBC675 /* YLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCommon.h; sourceTree = "<group>"; };
@@ -97,6 +100,15 @@
 			children = (
 				EB0FCAE21CA12F9600011002 /* UIImage+YL.h */,
 				EB0FCAE31CA12F9600011002 /* UIImage+YL.m */,
+			);
+			path = "UIImage+YL";
+			sourceTree = "<group>";
+		};
+		EB1229EC1CA64B9B007BBB73 /* UIImage+YL */ = {
+			isa = PBXGroup;
+			children = (
+				EB1229ED1CA64BC9007BBB73 /* UIImageYLVC.h */,
+				EB1229EE1CA64BC9007BBB73 /* UIImageYLVC.m */,
 			);
 			path = "UIImage+YL";
 			sourceTree = "<group>";
@@ -250,6 +262,7 @@
 		EBF323FF1C9BE7840056C907 /* CategoryUse */ = {
 			isa = PBXGroup;
 			children = (
+				EB1229EC1CA64B9B007BBB73 /* UIImage+YL */,
 				EBF324001C9BE7A40056C907 /* UIView+Extension */,
 			);
 			path = CategoryUse;
@@ -295,6 +308,7 @@
 				TargetAttributes = {
 					EBF3232A1C9BE4540056C907 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VD58PNDPW6;
 					};
 				};
 			};
@@ -349,6 +363,7 @@
 				EBF323FB1C9BE4870056C907 /* UIColor+Extension.m in Sources */,
 				EBF323F51C9BE4870056C907 /* NSMutableArray+ObjectiveSugar.m in Sources */,
 				EBF324031C9BE7BE0056C907 /* UIViewExtensionUse.m in Sources */,
+				EB1229EF1CA64BC9007BBB73 /* UIImageYLVC.m in Sources */,
 				EBF323EE1C9BE4870056C907 /* NSObject+CleanDescription.m in Sources */,
 				EBF323FA1C9BE4870056C907 /* UIAlertView+Extension.m in Sources */,
 				EBF323F71C9BE4870056C907 /* NSSet+ObjectiveSugar.m in Sources */,
@@ -463,10 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iOSCategoriesCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ylgwhyh.iOSCategoriesCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -474,10 +492,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iOSCategoriesCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ylgwhyh.iOSCategoriesCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
