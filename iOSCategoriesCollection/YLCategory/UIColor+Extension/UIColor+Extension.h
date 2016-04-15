@@ -19,4 +19,5 @@
  */
 +(UIColor *)randomColor;
 
++(UIColor *) colorWithHexCode:(NSString *)hexCode;
 @end
