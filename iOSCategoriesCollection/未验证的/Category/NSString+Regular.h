@@ -19,5 +19,16 @@
 - (BOOL)isPhoneNumber;//验证是否为电话号码。正确格式为：XXXX-XXXXXXX，XXXX-XXXXXXXX，XXX-XXXXXXX，XXX-XXXXXXXX，XXXXXXX，XXXXXXXX
 - (BOOL)isElevenDigitNum;//判断是否为11位的数字
 - (BOOL)isIdentifyCardNumber;//验证15或18位身份证。
-
+/**
+ *  清空字符串中的空白字符
+ *
+ *  @return 清空空白字符串之后的字符串
+ */
+- (NSString *)trimString;
+/**
+ *  是否空字符串
+ *
+ *  @return 如果字符串为nil或者长度为0返回YES
+ */
+- (BOOL)isEmptyString;
 @end
