@@ -32,6 +32,22 @@
     return image;
 }
 
+#pragma mark 裁剪图片
+// Returns a copy of this image that is cropped to the given bounds.
+// The bounds will be adjusted using CGRectIntegral.
+// This method ignores the image's imageOrientation setting.
+- (UIImage *)croppedImage:(CGRect)bounds {
+    CGImageRef imageRef = CGImageCreateWithImageInRect([self CGImage], bounds);
+    UIImage *croppedImage;
+    if ([self respondsToSelector:@selector(scale)] && [UIImage respondsToSelector:@selector(imageWithCGImage:scale:orientation:)]) {
+        croppedImage = [UIImage imageWithCGImage:imageRef scale:self.scale orientation:self.imageOrientation];
+    } else {
+        croppedImage = [UIImage imageWithCGImage:imageRef];
+    }
+    CGImageRelease(imageRef);
+    return croppedImage;
+}
+
 
 
 @end

@@ -24,10 +24,12 @@
  */
 + (UIImage *)resizedImageWithName:(NSString *)name left:(CGFloat)left top:(CGFloat)top;
 
+#warning 待测试
 /**
  *  根据颜色返回图片
  */
 +(UIImage*)imageWithColor:(UIColor*)color;
 
+- (UIImage *)croppedImage:(CGRect)bounds;
 
 @end

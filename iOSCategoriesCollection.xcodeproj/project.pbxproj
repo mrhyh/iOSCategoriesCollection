@@ -10,6 +10,7 @@
 		EB0FCAE41CA12F9600011002 /* UIImage+YL.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0FCAE31CA12F9600011002 /* UIImage+YL.m */; };
 		EB1229EF1CA64BC9007BBB73 /* UIImageYLVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1229EE1CA64BC9007BBB73 /* UIImageYLVC.m */; };
 		EB5461181C9C009800BBC675 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5461171C9C009800BBC675 /* UIColor+Hex.m */; };
+		EB5DC7D71CC4A15C00E0349B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5DC7D51CC4A15C00E0349B /* UIImage+Resize.m */; };
 		EBCBA80C1CC397D2001DC2BA /* NSData+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBA7D41CC397D1001DC2BA /* NSData+Addition.m */; };
 		EBCBA80D1CC397D2001DC2BA /* NSDate+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBA7D61CC397D1001DC2BA /* NSDate+Addition.m */; };
 		EBCBA80E1CC397D2001DC2BA /* NSFileManager+ Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBA7D71CC397D1001DC2BA /* NSFileManager+ Addition.m */; };
@@ -58,6 +59,8 @@
 		EB5461171C9C009800BBC675 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		EB5461191C9C00FF00BBC675 /* YLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCommon.h; sourceTree = "<group>"; };
 		EB54611B1C9C16C800BBC675 /* YLCategoryUIViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLCategoryUIViewExtension.h; sourceTree = "<group>"; };
+		EB5DC7D41CC4A15C00E0349B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		EB5DC7D51CC4A15C00E0349B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		EBCBA7D21CC397D1001DC2BA /* CategoryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryUtils.h; sourceTree = "<group>"; };
 		EBCBA7D31CC397D1001DC2BA /* NSData+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Addition.h"; sourceTree = "<group>"; };
 		EBCBA7D41CC397D1001DC2BA /* NSData+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Addition.m"; sourceTree = "<group>"; };
@@ -169,6 +172,15 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		EB5DC7D21CC4A15C00E0349B /* UIImage_Resize */ = {
+			isa = PBXGroup;
+			children = (
+				EB5DC7D41CC4A15C00E0349B /* UIImage+Resize.h */,
+				EB5DC7D51CC4A15C00E0349B /* UIImage+Resize.m */,
+			);
+			path = UIImage_Resize;
+			sourceTree = "<group>";
+		};
 		EBCBA7D01CC397D1001DC2BA /* 未验证的 */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +193,7 @@
 		EBCBA7D11CC397D1001DC2BA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				EB5DC7D21CC4A15C00E0349B /* UIImage_Resize */,
 				EBCBA7D21CC397D1001DC2BA /* CategoryUtils.h */,
 				EBCBA7D31CC397D1001DC2BA /* NSData+Addition.h */,
 				EBCBA7D41CC397D1001DC2BA /* NSData+Addition.m */,
@@ -472,6 +485,7 @@
 				EB5461181C9C009800BBC675 /* UIColor+Hex.m in Sources */,
 				EBCBA8101CC397D2001DC2BA /* NSString+Regular.m in Sources */,
 				EBF323FE1C9BE4870056C907 /* UIView+Extension.m in Sources */,
+				EB5DC7D71CC4A15C00E0349B /* UIImage+Resize.m in Sources */,
 				EBCBA8121CC397D2001DC2BA /* UIImage+Addition.m in Sources */,
 				EBCBA80D1CC397D2001DC2BA /* NSDate+Addition.m in Sources */,
 				EBF323331C9BE4540056C907 /* AppDelegate.m in Sources */,

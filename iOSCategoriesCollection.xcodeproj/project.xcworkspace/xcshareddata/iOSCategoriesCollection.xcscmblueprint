@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BEB587085245BC31747B8A978DCEAE8DC68A53ED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BEB587085245BC31747B8A978DCEAE8DC68A53ED" : 0,
+    "2025C3DFDB54179763F53AED73DFA2E3DB136F02" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8FCFAA1D-EE59-415D-8D6D-E5D269188364",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BEB587085245BC31747B8A978DCEAE8DC68A53ED" : "iOSCategoriesCollection\/",
+    "2025C3DFDB54179763F53AED73DFA2E3DB136F02" : "iOSCategoriesCollection\/iOSCategoriesCollection\/%E6%9C%AA%E9%AA%8C%E8%AF%81%E7%9A%84\/Category\/UIImage_Resize\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSCategoriesCollection",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSCategoriesCollection.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/coryalder\/UIImage_Resize.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2025C3DFDB54179763F53AED73DFA2E3DB136F02"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mrhyh\/iOSCategoriesCollection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BEB587085245BC31747B8A978DCEAE8DC68A53ED"
+    }
+  ]
+}

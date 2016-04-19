@@ -177,4 +177,34 @@
                      }];
 }
 
+#pragma mark 设置圆角
+/**
+ * 设置圆角
+ */
+- (void)setCornerRadius:(CGFloat)radius andBorderColor:(UIColor *)color andBorderWidth:(CGFloat)width
+{
+    self.layer.cornerRadius = radius;
+    self.layer.borderColor = color.CGColor;
+    self.layer.borderWidth = width;
+    self.clipsToBounds = YES;
+}
+
+/**
+ * 获取到所在的控制器
+ */
+
+#pragma mark 获取到所在的控制器
+- (UIViewController*)viewController {
+    for (UIView* next = [self superview]; next; next = next.superview)
+    {
+        UIResponder* nextResponder = [next nextResponder];
+        
+        if ([nextResponder isKindOfClass:[UIViewController class]])
+        {
+            return (UIViewController*)nextResponder;
+        }
+    }
+    return nil;
+}
+
 @end

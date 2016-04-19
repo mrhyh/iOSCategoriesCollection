@@ -47,4 +47,14 @@
  *  @param time    动画执行时间
  */
 + (void)viewAnimate:(void(^)())animate time:(float)time;
+
+/**
+ * 设置圆角
+ */
+- (void)setCornerRadius:(CGFloat)radius andBorderColor:(UIColor *)color  andBorderWidth:(CGFloat)width;
+
+/**
+ * 获取到所在的控制器
+ */
+- (UIViewController*)viewController;
 @end
